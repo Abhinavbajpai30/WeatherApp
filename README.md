@@ -15,7 +15,7 @@ A sleek and responsive weather application that provides real-time weather infor
 
 ## 🚀 Demo
 
-Try out the live demo [here](#) (replace with your deployed app URL)
+Try out the live demo [here](https://abhinavbajpai30.github.io/WeatherApp/) (replace with your deployed app URL)
 
 ## 📋 Prerequisites
 
@@ -27,8 +27,8 @@ Before you begin, you'll need:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/weather-app.git
-cd weather-app
+git clone https://github.com/Abhinavbajpai30/WeatherApp.git
+cd WeatherApp
 ```
 
 2. Open `app.js` and replace the API key:
@@ -83,10 +83,6 @@ The app uses a gradient background that can be customized in `style.css`:
     background: linear-gradient(135deg, #00feba, #5b548a);
 }
 ```
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👏 Acknowledgments
 
