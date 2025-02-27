@@ -8,18 +8,17 @@ let wind = document.querySelector(".wind");
 let weatherCard = document.querySelector(".weather");
 let errorMsg = document.querySelector("#error-msg")
 
-let key = "";
-
 let updateWeather = async () => {
     cityInput = loc.value.toLowerCase();
     if(cityInput=="") cityInput="new york";
 
-    let URL = `https://api.openweathermap.org/data/2.5/weather?q=${cityInput}&appid=${key}&units=metric`;
+    let URL = `http://127.0.0.1:3000/api?city=${cityInput}`;
 
     let rawData = await fetch(URL);
     let data = await rawData.json();
 
-    console.log(data);
+    // console.log(rawData)
+    // console.log(data);
 
     if(data.cod>=400) {
         errorMsg.classList.remove("hide");
