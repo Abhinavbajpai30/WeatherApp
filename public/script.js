@@ -12,7 +12,7 @@ let updateWeather = async () => {
     cityInput = loc.value.toLowerCase();
     if(cityInput=="") cityInput="new york";
 
-    let URL = `http://127.0.0.1:3000/api?city=${cityInput}`;
+    let URL = `https://weather-app-two-hazel-95.vercel.app/api/weather?city=${cityInput}`;
 
     let rawData = await fetch(URL);
     let data = await rawData.json();
